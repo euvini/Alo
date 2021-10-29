@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,800;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: linear-gradient(104.18deg, #3D1565 20.16%, #321153 57.26%, #280E42 93.6%);
+    
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+div h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 400;
+    background: #F9F9F9;
+    padding-top: 56px;
+    padding-bottom: 72px;
+
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F9F9F9;
+}
+
+.cards ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.cards ul li {
+    background-color: #E5E5E5;
+    width: 292px;
+    height: 279px;
+    position: relative;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.cards ul li:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    border: 2px #DD2A7B;
+}
+
+.cards ul li strong {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: #41414d;
+    font-size: 20px;
+}
+
+.cards ul li h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #41414d;
+    margin-bottom: 26px;
+}
+
+.cards ul li span {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #41414d;
+    margin-bottom: 20px;
+}
+
+.cards ul li p {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards ul li button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 78px;
+    border: 3px solid #DD2A7B;
+    color: #DD2A7B;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    left: 16px;
+    top: 221px;
+    background: none;
+    cursor: pointer;
+}
+
+.cards ul li button:hover {
+    background: #DD2A7B;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.button-back {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 11px 48px;
+    margin-top: 16px;
+    width: 251px;
+    height: 42px;
+    background: #DD2A7B;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.link-back {
+    text-decoration: none;
+}
+
+.button-back:hover {
+    background: #DD2A7B;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.footer {
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
