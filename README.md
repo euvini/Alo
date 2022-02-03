@@ -7,4 +7,4 @@ Para utilização, instalar as dependências:
   npm install react-router-dom /
   npm install react-icons
   
-*aplicação apenas desktopp ainda sem responsividade*
+*aplicação apenas desktop ainda sem responsividade*
